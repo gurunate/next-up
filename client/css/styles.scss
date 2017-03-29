@@ -1,0 +1,15 @@
+.banner {
+    height: 100px;
+    background: lightgray;
+}
+
+.navbar {
+    position: static;
+    transition: all 0.4s ease;
+
+    &.sticky {
+        position: fixed;
+        top: 0;
+        //width: 100%;
+    }
+}

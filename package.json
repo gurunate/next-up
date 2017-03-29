@@ -1,0 +1,51 @@
+{
+  "name": "next-up",
+  "version": "0.0.1",
+  "description": "Next Up project selector",
+  "main": "server.js",
+  "scripts": {
+    "build": "webpack --progress --colors",
+    "dev": "nodemon server",
+    "start": "node server",
+    "test": "mocha tests/**/*.js",
+    "watch": "webpack --watch --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gurunate/next-up.git"
+  },
+  "keywords": [],
+  "author": "Nate Johnson",
+  "license": "MIT",
+  "homepage": "https://github.com/gurunate/next-up/blob/master/README.md",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "epithet": "^1.1.1",
+    "eslint": "^3.18.0",
+    "handlebars": "^4.0.6",
+    "hapi": "^16.1.0",
+    "inert": "^4.1.0",
+    "jquery": "^3.2.1",
+    "lodash": "^4.17.4",
+    "lorem-ipsum": "^1.0.3",
+    "rc": "^1.1.7",
+    "vision": "^4.1.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "css-loader": "^0.27.3",
+    "file-loader": "^0.10.1",
+    "html-loader": "^0.4.5",
+    "istanbul": "^0.4.5",
+    "less": "^2.7.2",
+    "less-loader": "^3.0.0",
+    "mocha": "^3.2.0",
+    "mock-fs": "^4.1.0",
+    "node-sass": "^4.5.0",
+    "nodemon": "^1.11.0",
+    "sass-loader": "^6.0.3",
+    "style-loader": "^0.13.2",
+    "url-loader": "^0.5.8",
+    "webpack": "^2.2.1"
+  }
+}

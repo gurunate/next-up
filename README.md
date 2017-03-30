@@ -24,6 +24,8 @@ $ npm run watch
 $ npm start
 ```
 
+* http://localhost:6300
+
 ### Dev
 
 ```bash
